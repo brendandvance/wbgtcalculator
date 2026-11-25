@@ -1,14 +1,6 @@
-# WBGT calculator for Robert Street Park
+## Intro
 
-Team 207 (APS111, University of Toronto) used this script to calculate the wet-bulb globe temperature (WBGT) in Robert Street Park at Toronto's Heat Warning threshold (31 °C, humidex 40). It covers open sun, the existing trees and the three alternative designs in our Conceptual Design Specifications (Appendix H).
-
-## Run it
-
-```
-python3 wbgt.py
-```
-
-It needs Python 3 and uses only the standard library. It prints every input, the intermediate values (sun, wind, canopy temperature, globe and natural wet-bulb temperatures), the WBGT at each location, the share of the user area below 31 °C, and a sensitivity check.
+Calculator used to find the WBGT for various ADs in the Robert's Street Park assignment
 
 ## Method
 
